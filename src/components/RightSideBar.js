@@ -147,7 +147,7 @@ function RightSideBar() {
             {/* right side */}
             <div>
               <label className=" text-orange-500 font-bold text-xs">$</label>
-              <label className="font-bold text-md ml-1">{cart_item?.price.toFixed(2)}</label>
+              <label className="font-bold text-md ml-1">{(cart_item?.price * cart_item?.quantity).toFixed(2)}</label>
             </div>
           </div>
 
