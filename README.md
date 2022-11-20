@@ -14,17 +14,6 @@ target="_blank"><img src="https://img.shields.io/badge/Tailwind%20Css-v1-red?sty
 
 # 🧐 Project Design
 
-<div align="row" > 
-
- <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/pika-food-web/master/src/assets/gitimages/1.png" width="200px" height="300px"/>
-
- <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/pika-food-web/master/src/assets/gitimages/2.png"  width="200px" height="300px"/>
-
- <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/pika-food-web/master/src/assets/gitimages/3.png"  width="200px" height="300px"/>
-
-
-</div>
-
 <div align="row">
-<img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/pika-food-web/master/src/assets/gitimages/3.png"  width="400px" height="300px"/>
+<img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/pika-food-web/master/src/assets/gitimages/3.png"  width="800px" height="300px"/>
 </div>
