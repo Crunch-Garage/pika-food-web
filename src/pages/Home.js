@@ -33,11 +33,12 @@ function Home() {
 
       <div>
 
-        <div className="justify-between flex-row flex">
+        <div className="justify-between flex-row flex mr-10">
 
           <p className="text-2xl font-bold">Today Menu &#128523;</p>
 
-          <div className="bg-white h-10 items-center justify-center flex shadow-2xl align-baseline rounded-l-3xl rounded-r-3xl">
+          <div className="bg-white h-10 items-center justify-center 
+          flex shadow-2xl align-baseline rounded-l-3xl rounded-r-3xl">
 
             <input
               onChange={filterFood}
@@ -51,13 +52,15 @@ function Home() {
 
         </div>
 
-        <div className="bg-orange-200 rounded-2xl h-48 w-full mt-5">
+        <div className="bg-orange-200 rounded-2xl mt-5 ml-0 mr-10 shadow-xl">
 
           <div className="flex flex-row justify-between mt-3">
 
-            <img src={images?.delivery_bike_icon} alt={images?.delivery_bike_icon} className="w-30 h-40 mt-3 ml-5" />
+            <img 
+            src={images?.delivery_bike_icon} alt={images?.delivery_bike_icon}
+             className="w-36 h-44 rounded-l-2xl" />
 
-            <div className="items-center mt-3">
+            <div className="items-center justify-center flex flex-col">
               <p className="text-md font-bold">Hello Jeremy</p>
 
               <p className="text-center mt-2">
@@ -66,14 +69,16 @@ function Home() {
                 <label className="text-gray-500"> purchase</label>
               </p>
 
-              <button className="text-white h-10 flex w-32  mt-3 bg-gradient-to-r bg-transparent from-orange-400 to-orange-600 rounded-3xl items-center justify-center text-center">
+              <button className="text-white h-10 flex  mt-3
+               bg-gradient-to-r bg-transparent from-orange-300 to-orange-500 
+               rounded-3xl items-center justify-center text-center">
 
-                <label className="">Learn Mores</label>
+                <label className="ml-10 mr-10">Learn More</label>
 
               </button>
             </div>
 
-            <img src={images?.banner_image_spags} alt={images?.banner_image_spags} className="w-30 h-40 mt-3 mr-5" />
+            <img src={images?.banner_image_spags} alt={images?.banner_image_spags} className="w-36 h-44 rounded-r-2xl" />
 
           </div>
 
@@ -99,7 +104,7 @@ function Home() {
             food: foodHolder?.filter((e) => e?.menu_id === menu?.id)
           })}
           className={checkSelectedCategory(menu) ?
-            "bg-orange-400 shadow-2xl rounded-2xl ml-5 items-center justify-center mt-5 w-32"
+            "bg-gradient-to-r bg-transparent from-orange-300 to-orange-500 shadow-2xl rounded-2xl ml-3   items-center justify-center mt-5 w-32"
             :
             "bg-white shadow-2xl rounded-2xl ml-5 items-center justify-center mt-5 w-32"
           } >
@@ -117,7 +122,7 @@ function Home() {
               className={checkSelectedCategory(menu) ?
                 "bg-white h-6 w-6 justify-center items-center rounded-full mt-5 flex"
                 :
-                "bg-gradient-to-r bg-transparent from-orange-400 to-orange-600 h-6 w-6 justify-center items-center rounded-full mt-5 flex"
+                " bg-gradient-to-r bg-transparent from-orange-300 to-orange-500 h-6 w-6 justify-center items-center rounded-full mt-5 flex"
               }
             >
               <ChevronRightIcon className={checkSelectedCategory(menu) ? "h-3 w-3 text-orange-400" : "h-3 w-3 text-white"} />
@@ -132,7 +137,7 @@ function Home() {
 
       <div className="mt-8">
 
-        <div className="justify-between flex-row flex">
+        <div className="justify-between flex-row flex mr-10">
 
           <p className="text-xl font-bold">Menu Category</p>
 
@@ -179,7 +184,7 @@ function Home() {
       const { food_item } = props;
 
       return (
-        <div className="w-60 ml-5 items-center justify-center mt-3">
+        <div className="w-56 ml-5 items-center justify-center mt-3">
 
           <div className="mt-0 mb-5 mr-10 ml-10 items-center justify-center content-center flex flex-col relative">
 
@@ -187,7 +192,7 @@ function Home() {
               <img src={food_item?.food_image} alt={food_item?.name} className="w-28 h-28 rounded-full" />
             </div>
 
-            <div className="bg-white shadow-2xl rounded-lg w-60 items-start justify-start flex flex-col mt-5">
+            <div className="bg-white shadow-2xl rounded-lg w-56 items-start justify-start flex flex-col mt-5">
 
               <div className="mt-5 mr-5 ml-5 items-start justify-start flex w-48">
                 <div className="font-bold text-md truncate">{food_item?.name}</div>
@@ -209,7 +214,9 @@ function Home() {
                 {/* add icon */}
                 <button
                   onClick={() => { console.log(food_item) }}
-                  className=" h-8 w-8 justify-center items-center rounded-full flex bg-gradient-to-r from-orange-400 to-orange-600 shadow-2xl">
+                  className=" h-8 w-8 justify-center items-center rounded-full flex 
+                  bg-gradient-to-r bg-transparent from-orange-300 to-orange-500 
+                  shadow-2xl">
                   <PlusIcon className="h-4 w-4 text-white" />
                 </button>
 
