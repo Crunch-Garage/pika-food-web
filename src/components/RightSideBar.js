@@ -70,11 +70,11 @@ function RightSideBar() {
         <div className="mr-5 ml-5 mt-10 relative">
 
           {/* card one rotate */}
-          <div className="w-80 h-48 bg-gradient-to-r from-orange-400 to-orange-600 
+          <div className="w-80 h-48 bg-gradient-to-r from-orange-300 to-orange-500 
           rounded-3xl flex flex-col justify-between rotate-12 object-cover shadow-2xl" />
 
           {/* card two active card */}
-          <div className="w-80 h-48 bg-gradient-to-r bg-transparent from-orange-400 to-orange-600 
+          <div className="w-80 h-48 bg-gradient-to-r bg-transparent from-orange-300 to-orange-500 
           rounded-3xl flex flex-col justify-between top-0 object-cover absolute shadow-2xl">
 
             {/* top card section */}
@@ -187,7 +187,9 @@ function RightSideBar() {
         {/* checkout button */}
 
         <div className="flex flex-row justify-center mt-10 mb-10">
-          <button className="text-white flex  mt-3 bg-gradient-to-r bg-transparent from-orange-400 to-orange-600 rounded-3xl items-center justify-center text-center">
+          <button className="text-white flex  mt-3
+           bg-gradient-to-r bg-transparent from-orange-300 to-orange-500
+           rounded-3xl items-center justify-center text-center">
 
             <label className="ml-20 mr-20 mt-3 mb-3">Checkout</label>
 
@@ -199,9 +201,8 @@ function RightSideBar() {
     )
   }
 
-
   return (
-    <div className="bg-white font-mono flex-col  inset-y-0 right-0 fixed overflow-auto">
+    <div className="bg-white font-mono flex-col  inset-y-0 right-0 fixed overflow-auto shadow-md">
 
       {/* render mini nav bar */}
       {MiniNavBar()}

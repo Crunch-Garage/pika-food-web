@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/pika-food-web/master/src/assets/gitimages/react.png" width="224px"/><br/>
+  Pika Food Delivery Web App
+</h1>
+<p align="center">Pika Food is a food delivery webapp just like Uber Eats or Glovo built on <b>React</b> and <b>Tailwind Css</b>.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><a href="https://docs.expo.dev/get-started/create-a-new-app/" 
+target="_blank"><img src="https://img.shields.io/badge/React-%5E18.2.1-00ADD8?style=for-the-badge&logo=react" alt="react version" /></a>&nbsp;
+<a href="https://reactnative.dev/" 
+target="_blank"><img src="https://img.shields.io/badge/Tailwind%20Css-v1-red?style=for-the-badge&logo=tailwindcss&logoColor=blue" alt="tailwind css version" />
+ </p>
 
-## Available Scripts
+ <br />
 
-In the project directory, you can run:
+# 🧐 Project Design
 
-### `npm start`
+- Screen one
+<div align="row">
+<img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/pika-food-web/master/src/assets/gitimages/1.png"  width="800px" height="400px"/>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Screen two
+<div align="row">
+<img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/pika-food-web/master/src/assets/gitimages/2.png"  width="800px" height="400px"/>
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Screen three
+<div align="row">
+<img alt="cgapp logo" src="https://raw.githubusercontent.com/CossyCossy/pika-food-web/master/src/assets/gitimages/3.png"  width="800px" height="400px"/>
+</div>
 
-### `npm test`
+# 📒 Getting Started
+This project was build using React [React](https://reactjs.org/docs/create-a-new-react-app.html) and [Tailwind Css](https://tailwindcss.com/docs/guides/create-react-app)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the repository:
+```
+$ git clone https://github.com/Crunch-Garage/pika-food-web.git
+```
+Get into project directory:
+```
+$ cd pika-food-web/
+```
 
-### `npm run build`
+Install the project dependancies:
+``` 
+$ npm install
+```
+This will install all the project dependencies.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run the project:
+``` 
+$ npm start
+```
+This will run the app in the development mode. Open [http://localhost:3000](http://localhost:3000)) to view it in your browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 👨‍💻 Tech stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here's a brief overview of the tech stack the app is built on.:
 
-### `npm run eject`
+- 🚨This project uses the [React](https://reactjs.org/docs/create-a-new-react-app.html) and [Tailwind Css](https://tailwindcss.com/docs/guides/create-react-app).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# ✍️ Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Interested in contributing to the Pika Food Web App project? Thanks so much for your interest! We are always looking for improvements to the project and contributions from open-source developers are greatly appreciated.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 🌟 Spread the word!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you want to say thank you and/or support active development of the Pika Food Web App:
 
-## Learn More
+- Add a GitHub Star to the project!
+- Check out our website [Crunch Garage](https://crunchgarage.com/) and [GitHub](https://github.com/Crunch-Garage)
+ 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Thanks so much for your interest in growing the reach of the Pika Food Web App app!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+_**PS:** consider sharing and following our organization ([Crunch Garage](https://github.com/Crunch-Garage)) to continue the development of this project on [Pika Food Web App](https://github.com/Crunch-Garage/pika-food-web) :)_
 
-### Code Splitting
+# ⚠️ License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The Pika Food Web App project is free and open-source software licensed under the GNU General Public License v3.0. All designs were created by [Crunch Garage](https://crunchgarage.com/) and distributed under [MIT](./LICENSE).
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 🥷 Author
 
-### Making a Progressive Web App
+Cosmas Mbuvi | [Crunch Garage Homepage](https://crunchgarage.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# 🍾 Cheers!
 
-### Advanced Configuration
+Reminder that *you are great, you are enough, and your presence is valued.* If you are struggling with your mental health, please reach out to someone you love and consult a professional. [There are many resources for you to get help in a time of need.](https://www.nimh.nih.gov/health/find-help)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
