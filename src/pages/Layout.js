@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { LeftSideBar, RightSideBar } from '../components'
-import { ChildRoutes } from '../routes'
+import { ChildRoutes, PrivateRoute } from '../routes'
 
 
 function Layout() {
@@ -20,7 +20,12 @@ function Layout() {
                                 path={route.path}
                                 exact={route.exact}
                                 name={route.name}
-                                element={<route.element />}
+                                element={
+                                    <PrivateRoute route={route}>
+                                          <route.element />
+                                    </PrivateRoute>
+                              
+                            }
                             />
                         )
                     })}
