@@ -9,7 +9,10 @@ import {
 import { 
     FoodDetails,
     Home, 
-    Orders} from '../pages'
+    Orders,
+    Login,
+    ErrorPage
+} from '../pages'
 
 const icon_style = "h-6 w-6 text-gray-500 hover:text-white"
 
@@ -72,6 +75,20 @@ export const ChildRoutes = [
         exact: true,
         name: "Orders",
         element: Orders,
+        permission: true,
+    },
+    {
+        path: "/login",
+        exact: true,
+        name: "Login",
+        element: Login,
+        permission: false,
+    },
+    {
+        path: "*",
+        exact: true,
+        name: "ErrorPage",
+        element: ErrorPage,
         permission: false,
     },
     

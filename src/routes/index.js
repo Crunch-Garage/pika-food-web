@@ -1,9 +1,11 @@
 import {
     LeftBarRoutes,
-    ChildRoutes
+    ChildRoutes,
 } from "./Routes"
+import PrivateRoute from "./PrivateRoute"
 
 export {
     LeftBarRoutes,
-    ChildRoutes
+    ChildRoutes,
+    PrivateRoute
 }

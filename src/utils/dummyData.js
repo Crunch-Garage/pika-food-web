@@ -218,6 +218,7 @@ export const userProfile = {
     last_name: "Mathews",
     avatar: images.user_profile,
     user_type: "user",
+    authenticated: false,
     cards: [
         {
             id: 1,
